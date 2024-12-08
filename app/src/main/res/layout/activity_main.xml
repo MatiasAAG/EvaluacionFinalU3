@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agendar Recordatorio"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Título del recordatorio -->
+    <EditText
+        android:id="@+id/etTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Descripción del recordatorio -->
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qué recordar"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Fecha del recordatorio -->
+    <EditText
+        android:id="@+id/etFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha (yyyy-mm-dd)"
+        android:inputType="date"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Hora del recordatorio -->
+    <EditText
+        android:id="@+id/etHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora (hh:mm)"
+        android:inputType="time"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Recordatorio"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Recordatorios"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnEnviarMQTT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar Señal MQTT"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvListaRecordatorios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="16dp"
+        android:background="#f0f0f0"
+        android:padding="8dp"/>
+
+</LinearLayout>

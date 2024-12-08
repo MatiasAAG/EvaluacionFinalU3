@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "283239211786",
+    "project_id": "evaluacionfinalu3",
+    "storage_bucket": "evaluacionfinalu3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283239211786:android:64376a6c8c248106e650f3",
+        "android_client_info": {
+          "package_name": "com.example.evaluacionfinalu3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7FsCIl5Z5xCCYKqttaG4kspZakrfghxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
